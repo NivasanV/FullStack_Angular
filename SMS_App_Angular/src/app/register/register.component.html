@@ -1,0 +1,23 @@
+<form (ngSubmit)="performRegister()">
+    <!-- <mat-form-field>
+        <mat-label>Roll No</mat-label>
+        <input matInput type="number" placeholder="Roll No" name="rollno" [(ngModel)]="rollNo" required>
+    </mat-form-field><br> -->
+ 
+    <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput type="text" placeholder="Name" name="name" [(ngModel)]="name" required>
+    </mat-form-field><br>
+
+    <mat-form-field>
+        <mat-label>No of Attempts</mat-label>
+        <input matInput type="number" placeholder="No of Attempts" name="attempts" [(ngModel)]="attempts" required>
+    </mat-form-field><br>
+
+    <mat-form-field>
+        <mat-label>Percentage</mat-label>
+        <input matInput type="number" placeholder="Percentage" name="percentage" [(ngModel)]="percentage" required>
+    </mat-form-field><br><br>
+    
+    <button mat-raised-button color="primary" type="submit">Register</button>
+</form>

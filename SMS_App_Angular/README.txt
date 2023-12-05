@@ -1,0 +1,4 @@
+---------------sms(Angular Front-end)-----------
+  -this frontend is responsible for fetching data from backend API,but which is not yet ready
+  -TODO once the backend is ready make HTTP calls using HTTP modules
+  -TODO crete Backend service for this front-end

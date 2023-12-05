@@ -1,0 +1,17 @@
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.success{
+    color: green;
+    background-color: yellow;
+}
+
+.error{
+    color: red;
+    background-color: yellow;
+}

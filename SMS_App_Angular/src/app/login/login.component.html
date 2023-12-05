@@ -1,0 +1,18 @@
+<form (ngSubmit)="performLogin()">
+    <!-- Form Field -->
+    <mat-form-field>
+        <mat-label>username</mat-label>
+        <input matInput type="text" placeholder="username" name="username" [(ngModel)]="username" required>
+        <mat-hint>6 Character minimum</mat-hint>
+    </mat-form-field>
+    <br><br>
+    <mat-form-field>
+        <mat-label>password</mat-label>
+        <input matInput type="password" placeholder="password" name="password" [(ngModel)]="password" required>
+    </mat-form-field>
+    <br><br>
+    <button mat-raised-button color="primary" type="submit" (click)="openDialog()">Login</button>
+</form>
+
+{{message}}
+<br>
